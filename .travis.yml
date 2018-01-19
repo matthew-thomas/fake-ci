@@ -1,4 +1,4 @@
 before_install: chmod +x build.sh
 mono:
   - latest
-script: build.sh
+script: "./build.sh"
