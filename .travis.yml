@@ -2,5 +2,4 @@ before_install: chmod +x build.sh
 install: sudo apt-get install mono-complete
 mono:
   - latest
-script:
-  - mono build-tools/NuGet/nuget.exe
+script: "./build.sh"
