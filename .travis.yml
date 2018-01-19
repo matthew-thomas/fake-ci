@@ -1,2 +1,4 @@
-before_install: chmod +x build.bat
-script: "./build.bat"
+before_install: chmod +x build.sh
+script: "./build.sh"
+mono:
+  - latest
