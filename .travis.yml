@@ -1,2 +1,2 @@
-before_install: chmod +x build.sh
-script: "./build.sh"
+before_install: chmod +x build.bat
+script: "./build.bat"
